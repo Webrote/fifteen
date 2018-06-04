@@ -1,0 +1,96 @@
+.field,
+.field * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+
+.field {
+    position: relative;
+    width: 162px;
+    height: 162px;
+    border: 1px solid #000; }
+
+.cell {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    cursor: pointer;
+    border-radius: 3px;
+    display: flex;
+    transition: all 100ms ease-in-out; }
+
+.cell:before {
+    content: attr(data-num);
+    margin: auto; }
+
+[data-pos="00"] {
+    top: 0px;
+    left: 0px; }
+
+[data-pos="01"] {
+    top: 40px;
+    left: 0px; }
+
+[data-pos="02"] {
+    top: 80px;
+    left: 0px; }
+
+[data-pos="03"] {
+    top: 120px;
+    left: 0px; }
+
+[data-pos="10"] {
+    top: 0px;
+    left: 40px; }
+
+[data-pos="11"] {
+    top: 40px;
+    left: 40px; }
+
+[data-pos="12"] {
+    top: 80px;
+    left: 40px; }
+
+[data-pos="13"] {
+    top: 120px;
+    left: 40px; }
+
+[data-pos="20"] {
+    top: 0px;
+    left: 80px; }
+
+[data-pos="21"] {
+    top: 40px;
+    left: 80px; }
+
+[data-pos="22"] {
+    top: 80px;
+    left: 80px; }
+
+[data-pos="23"] {
+    top: 120px;
+    left: 80px; }
+
+[data-pos="30"] {
+    top: 0px;
+    left: 120px; }
+
+[data-pos="31"] {
+    top: 40px;
+    left: 120px; }
+
+[data-pos="32"] {
+    top: 80px;
+    left: 120px; }
+
+[data-pos="33"] {
+    top: 120px;
+    left: 120px; }
+
+.counter__wrapper {
+    position: absolute;
+    left: 110%;
+    top: 0;
+    width: 300px;
+}

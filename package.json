@@ -1,0 +1,14 @@
+{
+  "name": "fifteen",
+  "version": "1.0.0",
+  "description": "15 game",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DK",
+  "license": "ISC",
+  "devDependencies": {
+    "node-static": "^0.7.10"
+  }
+}
