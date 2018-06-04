@@ -11,7 +11,6 @@ class Fifteen {
         this._counterPlace = this._element.querySelector('[data-element="counter"]');
         this._resultPlace = this._element.querySelector('[data-element="result"]');
 
-        console.log(this._counterPlace);
         this._element.addEventListener('click', this._onTileClick.bind(this));
 
         Fifteen._counter = 0;
@@ -85,7 +84,6 @@ class Fifteen {
         this._checkRightSet();
     }
     _showCounter() {
-        console.log(this._element, this._counterPlace);
         this._counterPlace.innerHTML = `${ Fifteen._counter }`;
     }
 
